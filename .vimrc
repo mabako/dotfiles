@@ -8,6 +8,8 @@ call vundle#begin()
 " include tex folding
 Bundle 'matze/vim-tex-fold'
 
+" close html/xml tags automagically
+Plugin 'closetag.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
