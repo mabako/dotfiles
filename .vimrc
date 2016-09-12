@@ -5,8 +5,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" include tex folding
-Bundle 'matze/vim-tex-fold'
+Plugin 'lervag/vimtex'
 
 " close html/xml tags automagically
 Plugin 'closetag.vim'
@@ -20,3 +19,10 @@ filetype plugin on
 
 " default to LaTeX for tex files
 let g:tex_flavor="latex"
+
+" allow for a machine-specific config
+try
+		source ~/.vimrc_machine
+catch
+		" do nothing. who cares?
+endtry
