@@ -5,3 +5,6 @@ setlocal wrap linebreak
 setlocal re=1 cursorline
 
 setlocal breakindent breakindentopt=shift:2
+
+" spell checking
+setlocal spell spelllang=de_de
