@@ -13,6 +13,8 @@ Plugin 'lervag/vimtex'
 " close html/xml tags automagically
 Plugin 'closetag.vim'
 
+Plugin 'hashivim/vim-vagrant'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
