@@ -31,3 +31,7 @@ try
 catch
 		" do nothing. who cares?
 endtry
+
+" highlight spaces at EOL
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
