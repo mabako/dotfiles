@@ -4,8 +4,7 @@ alias gd='git diff'
 alias ls='ls -F --color=auto --show-control-chars --hide="*.aux" --hide="*.log" --hide="*.out" --hide="*.syntex.gz" --hide="*.acr" --hide="*.acn" --hide="*.alg" --hide="*.bbl" --hide="*.bak" --hide="*.bcf" --hide="*.glg" --hide="*.blg" --hide="*.glo" --hide="*.gls" --hide="*.ist" --hide="*.lof" --hide="*.run.xml" --hide="*.synctex.gz" --hide="*.toc" --hide="*.tdo" --hide="NTUSER.DAT*" --hide="ntuser.dat*" --hide="*.fdb_latexmk"'
 alias config='git --git-dir=/c/Users/bauerm/.cfg/ --work-tree=/c/Users/bauerm'
 
-export MASTER=$HOME/Dropbox/Studium/master
-export master=$MASTER
+export master=$HOME/Dropbox/Studium/master
 export projekte=$HOME/Documents/Projekte
 export GIT_EDITOR=vim
 
