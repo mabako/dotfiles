@@ -32,6 +32,9 @@ catch
 		" do nothing. who cares?
 endtry
 
+" add aliases to :!
+let $BASH_ENV = "~/.bash_aliases"
+
 " highlight spaces at EOL
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
